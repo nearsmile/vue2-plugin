@@ -5,7 +5,9 @@ import App from './App'
 import router from './router'
 import '../utils/rem'
 import Plugin from './plugins/'
+import lazyload from './lazyload'
 
+Vue.use(lazyload)
 Vue.use(Plugin)
 
 Vue.config.productionTip = false
